@@ -14,7 +14,7 @@ def login():
         st.rerun()
 
 def logout():
-    st.header("Log out")
+    st.header("Log out*")
 
     if st.button("Log out"):
         st.session_state.role = None
